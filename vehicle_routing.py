@@ -1,8 +1,11 @@
 """Capacited Vehicles Routing Problem (CVRP)."""
 
+import pandas as pd
+import numpy as np
 from __future__ import print_function
 from ortools.constraint_solver import routing_enums_pb2
 from ortools.constraint_solver import pywrapcp
+
 
 
 def create_data_model():
